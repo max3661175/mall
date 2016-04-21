@@ -40,7 +40,7 @@ function readDatabase($filename)
     }
     return $tdb;
 }
-
+////////////
 function parseMol($mvalues)
 {
     for ($i=0; $i < count($mvalues); $i++) {
